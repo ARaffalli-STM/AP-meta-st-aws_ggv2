@@ -1,2 +1,2 @@
-The AP-meta-st-aws_ggv2 layer provides the custom machine and image for the STM32MP157A  AWS Greengrass V2 support
+The AP-meta-st-aws_ggv2 layer provides the custom machine and image for AWS Greengrass V2 support on STM32MP157 OpenSTLinux distribution
 Note: the machine and image are based on the st-image-weston image in OpenSTLinux-weston distribution
