@@ -3,4 +3,6 @@ KERNEL_CONFIG_FRAGMENTS:append += "${WORKDIR}/fragments/5.15/fragment-ext4-fs-se
 SRC_URI:append = " file://5.15/fragment-ext4-fs-security.config;subdir=fragments "
 KERNEL_CONFIG_FRAGMENTS:append += "${WORKDIR}/fragments/5.15/fragment-add-sensors-iks01a3.config"
 SRC_URI:append += " file://5.15/fragment-add-sensors-iks01a3.config;subdir=fragments "
+KERNEL_CONFIG_FRAGMENTS:append += "${WORKDIR}/fragments/5.15/fragment-add-rtl8188eu.config"
+SRC_URI:append += " file://5.15/fragment-add-rtl8188eu.config;subdir=fragments "
 SRC_URI += " file://5.15/5.15.24/add-sensors-iks01a3.patch "

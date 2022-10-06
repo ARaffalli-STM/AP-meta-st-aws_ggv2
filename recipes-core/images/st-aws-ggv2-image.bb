@@ -42,6 +42,7 @@ CORE_IMAGE_EXTRA_INSTALL += " \
     workshop-tools \
     corretto-11-bin \
     greengrass-bin \
+    aws-iot-device-sdk-python-v2 \
     "
 
 # NOTE:
